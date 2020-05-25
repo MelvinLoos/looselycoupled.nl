@@ -7,4 +7,8 @@ import '~/assets/css/styles.css'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  head.meta.push({
+    name: 'theme-color',
+    content: '#000000'
+  })
 }
