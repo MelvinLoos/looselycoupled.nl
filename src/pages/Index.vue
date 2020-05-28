@@ -16,7 +16,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-lg-4 mx-auto text-center">
-            <h2 class="text-white-60 mx-auto mt-2 mb-5">Contact Us</h2>
+            <h2 class="text-white-60 mx-auto mt-2 mb-5" id="contact">Contact Us</h2>
             <form
               name="contact"
               method="post"
